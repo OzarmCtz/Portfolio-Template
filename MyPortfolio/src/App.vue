@@ -14,6 +14,7 @@
 </template>
 
 <style scoped>
+
   header {
     width: 100%;
     line-height: 60px;
