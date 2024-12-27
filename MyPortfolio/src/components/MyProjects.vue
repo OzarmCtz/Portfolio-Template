@@ -52,7 +52,6 @@
     <div id="projects">
         <h2 class="text-highlight-1 section-title">Some Projects</h2>
         <PorjectSingle v-for="(project , index) in projects" :key="project.name" :project="project" :reverse="index % 2 === 0 ? false : true"/>
-
     </div>
 </template>
 

@@ -4,6 +4,8 @@
     import MyTechno from '@/components/MyTechno.vue';
     import MyXp from '@/components/MyXp.vue';
     import MyProjects from '@/components/MyProjects.vue';
+    import MyTutorial from '@/components/MyTutorial.vue';
+    import MyBook from '@/components/MyBook.vue';
 
 </script>
 
@@ -14,6 +16,8 @@
         <MyTechno />
         <MyXp />
         <MyProjects />
+        <MyTutorial />
+        <MyBook />
     </div>
 </template>
 
