@@ -2,6 +2,7 @@
     import PageTitle from '@/components/PageTitle.vue';
     import AbouteMe from '@/components/AbouteMe.vue';
     import MyTechno from '@/components/MyTechno.vue';
+    import MyXp from '@/components/MyXp.vue';
 
 </script>
 
@@ -10,6 +11,7 @@
         <PageTitle />
         <AbouteMe />
         <MyTechno />
+        <MyXp />
     </div>
 </template>
 

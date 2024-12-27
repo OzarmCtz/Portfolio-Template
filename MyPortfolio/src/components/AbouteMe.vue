@@ -6,7 +6,7 @@
 <template>
     <div id="about-me">
         <h2 class="text-highlight-1 section-title">Qui suis-je ?</h2>
-        <p class="default-text">
+        <p class="default-text text-highlight-3">
             <span class="text-highlight-2">Développeur web</span> , plutôy spécialisé 
             <span class="text-highlight-2">Backend</span> (mais la partie <span class="text-highlight-2">Front end</span> ne me fait pas peur)
             <br/>
