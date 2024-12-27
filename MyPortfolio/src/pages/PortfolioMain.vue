@@ -3,6 +3,7 @@
     import AbouteMe from '@/components/AbouteMe.vue';
     import MyTechno from '@/components/MyTechno.vue';
     import MyXp from '@/components/MyXp.vue';
+    import MyProjects from '@/components/MyProjects.vue';
 
 </script>
 
@@ -12,6 +13,7 @@
         <AbouteMe />
         <MyTechno />
         <MyXp />
+        <MyProjects />
     </div>
 </template>
 
