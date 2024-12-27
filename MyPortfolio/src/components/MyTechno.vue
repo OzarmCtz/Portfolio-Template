@@ -3,14 +3,14 @@
 
 <template>
     <div id="skills">
-        <h2 class="text-highlight-1 section-title">Mes technos préférées</h2>
+        <h2 class="text-highlight-1 section-title">My Technologies</h2>
         <div id="icons-list">
+            <div class="techno-container"><i class="techno-icon devicon-html5-plain"></i> <br/> <span>HTML</span></div>
+            <div class="techno-container"><i class="techno-icon devicon-css3-plain"></i> <br/> <span>CSS</span></div>
+            <div class="techno-container"><i class="techno-icon devicon-javascript-plain"></i> <br/> <span>Javascript</span></div>
+            <div class="techno-container"><i class="techno-icon devicon-tailwindcss-original"></i> <br/> <span>AWS</span></div>
             <div class="techno-container"><i class="techno-icon devicon-amazonwebservices-plain-wordmark"></i> <br/> <span>AWS</span></div>
-            <div class="techno-container"><i class="techno-icon devicon-amazonwebservices-plain-wordmark"></i> <br/> <span>AWS</span></div>
-            <div class="techno-container"><i class="techno-icon devicon-amazonwebservices-plain-wordmark"></i> <br/> <span>AWS</span></div>
-            <div class="techno-container"><i class="techno-icon devicon-amazonwebservices-plain-wordmark"></i> <br/> <span>AWS</span></div>
-            <div class="techno-container"><i class="techno-icon devicon-amazonwebservices-plain-wordmark"></i> <br/> <span>AWS</span></div>
-            <div class="techno-container"><i class="techno-icon devicon-amazonwebservices-plain-wordmark"></i> <br/> <span>AWS</span></div>
+            <div class="techno-container"><i class="techno-icon devicon-go-original-wordmark"></i> <br/> <span>GO</span></div>
             <div class="techno-container"><i class="techno-icon devicon-amazonwebservices-plain-wordmark"></i> <br/> <span>AWS</span></div>
             <div class="techno-container"><i class="techno-icon devicon-amazonwebservices-plain-wordmark"></i> <br/> <span>AWS</span></div>
             <div class="techno-container"><i class="techno-icon devicon-amazonwebservices-plain-wordmark"></i> <br/> <span>AWS</span></div>

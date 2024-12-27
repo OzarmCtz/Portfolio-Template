@@ -6,17 +6,16 @@
     <div id="top-line">
         <img id="profile-img" src="../assets/me.png" alt="My Picture"> 
         <div id="line">
-            <p class="text-highlight-3"><span class="text-highlight-1">OzarmCtz</span>, <br> Développeur d'Applications</p>
+            <p class="text-highlight-3"><span class="text-highlight-1">Jhon Doe</span>, <br> Software Developer</p>
             <div id="social">
-                <SocialIcon img="github" alt="Github Logo" link="https://github.com/OzarmCtz"/>
-                <SocialIcon img="github" alt="Github Logo" link="https://github.com/OzarmCtz"/>
-                <SocialIcon img="github" alt="Github Logo" link="https://github.com/OzarmCtz"/>
+                <SocialIcon img="github" alt="Github Logo" link="https://github.com"/>
             </div>
         </div>
     </div>
 </template>
 
 <style scoped>
+ 
     #profile-img {
     width: 300px;
     height: 300px;
@@ -27,11 +26,12 @@
         margin-top: 50px;
         width: 100%;
         height: 300px;
+
     }
 
     #top-line #profile-img {
         float: left;
-        margin-right: 50px;
+        margin-right: 130px;
     }
 
     #top-line #line {
