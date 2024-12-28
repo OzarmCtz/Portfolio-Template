@@ -5,27 +5,28 @@
 
     let experiences = ref([
         {
-            title : "Développeur Web 1",
-            date : "2010 - 2020",
-            line1 : "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
-            line2 : "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
-            line3 : "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+            title: "Backend Developer - TechCorp Solutions",
+            date: "2015 - 2020",
+            line1: "Designed and implemented RESTful APIs to support scalable web and mobile applications.",
+            line2: "Maintained and optimized database systems using PostgreSQL, ensuring data integrity and performance.",
+            line3: "Collaborated with front-end developers to integrate user-facing elements with server-side logic."
         },
         {
-            title : "Développeur Web 2 ",
-            date : "2010 - 2020",
-            line1 : "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
-            line2 : "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
-            line3 : "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+            title: "Senior Backend Developer - CodeMasters Inc.",
+            date: "2020 - 2023",
+            line1: "Led a team of developers in building a microservices architecture for a cloud-based SaaS platform.",
+            line2: "Implemented advanced authentication and authorization systems using OAuth2 and JWT.",
+            line3: "Enhanced application performance by 30% through efficient caching strategies and code optimization."
         },
         {
-            title : "Développeur Web 3",
-            date : "2010 - 2020",
-            line1 : "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
-            line2 : "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
-            line3 : "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+            title: "Backend Engineer - CloudWare Systems",
+            date: "2023 - Present",
+            line1: "Architected serverless backend solutions using AWS Lambda and DynamoDB for cost-effective scalability.",
+            line2: "Integrated third-party APIs, including payment gateways into enterprise-level systems.",
+            line3: "Contributed to DevOps practices, streamlining CI/CD pipelines with Docker and Kubernetes."
         }
     ]);
+
 
     const showXp = (id) => {
         activeBloc.value = id;
@@ -34,11 +35,12 @@
 
 <template>
     <div id="xp">
-        <h2 class="text-highlight-1 section-title">Expériences</h2>
+        <h2 class="text-highlight-1 section-title">Experiences</h2>
         <div id="left" class="text-highlight-3">
-            <p :class="activeBloc === 0 ? 'active' : '' " class="company fw600" @click="showXp(0)">Sociéte n°1</p>
-            <p :class="activeBloc === 1 ? 'active' : '' " class="company fw600" @click="showXp(1)">Sociéte n°2</p>
-            <p :class="activeBloc === 2 ? 'active' : '' " class="company fw600" @click="showXp(2)">Sociéte n°3</p>
+            <p :class="activeBloc === 0 ? 'active' : '' " class="company fw600" @click="showXp(0)">Company #1</p>
+    <p :class="activeBloc === 1 ? 'active' : '' " class="company fw600" @click="showXp(1)">Company #2</p>
+    <p :class="activeBloc === 2 ? 'active' : '' " class="company fw600" @click="showXp(2)">Company #3</p>
+
         </div>
         <div id="right">
             <template v-for="(job,index) in experiences">
@@ -46,9 +48,9 @@
                     <h3 class="fw600">{{ job.title }}</h3>
                     <span id="date">{{ job.date }}</span>
                     <br/>
-                    <p class="fw600 mtb8" style="margin-top: 10px;"><span class="text-highlight-2">X</span>{{ job.line1 }}</p>
-                    <p class="fw600 mtb8" style="margin-top: 10px;"><span class="text-highlight-2">X</span>{{ job.line1 }}</p>
-                    <p class="fw600 mtb8" style="margin-top: 10px;"><span class="text-highlight-2">X</span>{{ job.line1 }}</p>
+                    <p class="fw600 mtb8" style="margin-top: 10px;"><span class="text-highlight-2">-> </span>{{ job.line1 }}</p>
+                    <p class="fw600 mtb8" style="margin-top: 10px;"><span class="text-highlight-2">-> </span>{{ job.line2 }}</p>
+                    <p class="fw600 mtb8" style="margin-top: 10px;"><span class="text-highlight-2">-> </span>{{ job.line3 }}</p>
                 </div>
             </template>
         </div>

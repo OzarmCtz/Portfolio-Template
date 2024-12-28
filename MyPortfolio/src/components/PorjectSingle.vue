@@ -68,7 +68,7 @@
             </p>
             <p class="tasks">
                 <span v-for="task in getProjectTasks()">
-                    <span class="text-highlight-2">X</span> {{ task }} <br/>
+                    <span class="text-highlight-2">-></span> {{ task }} <br/>
                 </span>
             </p>
         </div>
@@ -104,11 +104,18 @@
     .project .right .tag {
         display: block;
         float: left;
-        background-color: #333746;
+        background-color: var(--vt-c-custom-text-2);
+        color: var(--vt-c-custom-dark-1);
         padding: 8px 16px;
         margin-right: 12px;
         border-radius: 5px;
         font-weight: bold;
+    }
+
+    .project .right .tag:hover {
+        background-color: #333746;;
+        cursor: pointer;
+        color: var(--vt-c-custom-text-1);
     }
 
     .project .right .description {
@@ -119,7 +126,7 @@
 
     .project .right .tasks {
         margin-top: 20px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .reverse {

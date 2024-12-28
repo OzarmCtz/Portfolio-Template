@@ -4,11 +4,12 @@
 
 <template>
     <div id="top-line">
-        <img id="profile-img" src="../assets/me.png" alt="My Picture"> 
+        <img id="profile-img" src="../assets/aboutme/me.png" alt="My Picture"> 
         <div id="line">
             <p class="text-highlight-3"><span class="text-highlight-1">Jhon Doe</span>, <br> Software Developer</p>
             <div id="social">
-                <SocialIcon img="github" alt="Github Logo" link="https://github.com"/>
+                <SocialIcon img="github.png" alt="Github Logo" link="https://github.com"/>
+                <SocialIcon img="linkedin.png" alt="Linkedin Logo" link="https://linkedin.com"/>
             </div>
         </div>
     </div>
@@ -17,10 +18,11 @@
 <style scoped>
  
     #profile-img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%; 
+        width: 300px;
+        height: 300px;
+        border-radius: 50%; 
     }
+
 
     #top-line{
         margin-top: 50px;

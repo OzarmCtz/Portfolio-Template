@@ -8,7 +8,7 @@
 
 <template>
     <a :href="props.link" target="_blank">
-        <img class="social-img" :src="`src/assets/${props.img}.png`" :alt="`${props.alt}`">
+        <img class="social-img" :src="`src/assets/aboutme/${props.img}`" :alt="`${props.alt}`">
     </a>
 </template>
 
