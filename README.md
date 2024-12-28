@@ -1,5 +1,8 @@
 # 🌟 Personal Portfolio - Vue.js
 
+![image](https://github.com/user-attachments/assets/835e5cc5-ae22-40c6-93c2-a8004cd1ae55)
+
+
 Welcome to my **Personal Portfolio** built with Vue.js! 🎨 This project showcases dynamic sections such as About Me, Tech Stack, Experience, Projects, and Certifications. It's fully customizable and easy to manage. 
 
 ## 🚀 Getting Started
@@ -8,12 +11,12 @@ Follow these steps to set up and run the portfolio locally:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/portfolio.git
+    git clone https://github.com/OzarmCtz/Portfolio-Template.git
     ```
 
 2. **Navigate to the project folder**:
     ```bash
-    cd portfolio
+    cd MyPortfolio
     ```
 
 3. **Install dependencies**:
@@ -50,3 +53,9 @@ const config = {
     projects: true,       // Enable/Disable "Projects" section
     certification: true   // Enable/Disable "Certifications" section
 };
+
+---
+
+## 👨‍🏫 Credit
+
+Anthony Cardinale (Teacher) 
