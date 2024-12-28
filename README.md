@@ -1,9 +1,7 @@
-Voici le fichier README complet avec toutes les sections correctement présentées :
-
-```markdown
 # 🌟 Personal Portfolio - Vue.js
 
 ![image](https://github.com/user-attachments/assets/835e5cc5-ae22-40c6-93c2-a8004cd1ae55)
+
 
 Welcome to my **Personal Portfolio** built with Vue.js! 🎨 This project showcases dynamic sections such as About Me, Tech Stack, Experience, Projects, and Certifications. It's fully customizable and easy to manage. 
 
@@ -61,5 +59,4 @@ const config = {
 
 ## 👨‍🏫 Credit
 
-Anthony Cardinale (Teacher)
-```
+Anthony Cardinale (Teacher) 
