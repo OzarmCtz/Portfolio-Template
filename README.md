@@ -1,31 +1,7 @@
-Voici un `README.md` plus court et simple sans mention de la licence :
-
 ```markdown
 # Personal Portfolio - Vue.js
 
 This is a personal portfolio built with Vue.js. It displays sections like About Me, Tech Stack, Experience, Projects, and Certifications. You can easily enable or disable sections by modifying a simple configuration.
-
-## Features
-
-- **Dynamic Sections**: Enable or disable sections with a simple `true/false` configuration.
-- **Customizable**: Modify content and style to match your needs.
-
-## Configuration
-
-In the `src/App.vue` file, modify the `config` object to control which sections are shown:
-
-```javascript
-const config = {
-    aboutMe: true,        // Enable/Disable "About Me" section
-    techno: true,         // Enable/Disable "Tech Stack" section
-    xp: true,             // Enable/Disable "Experience" section
-    projects: true,       // Enable/Disable "Projects" section
-    certification: true   // Enable/Disable "Certifications" section
-};
-```
-
-- **true**: Section is enabled.
-- **false**: Section is disabled.
 
 ## Project Setup
 
@@ -49,6 +25,28 @@ const config = {
     ```
 
 4. Open [http://http://localhost:8080/](http://http://localhost:8080/) in your browser.
+
+## Features
+
+- **Dynamic Sections**: Enable or disable sections with a simple `true/false` configuration.
+- **Customizable**: Modify content and style to match your needs.
+
+## Configuration
+
+In the `src/App.vue` file, modify the `config` object to control which sections are shown:
+
+```javascript
+const config = {
+    aboutMe: true,        // Enable/Disable "About Me" section
+    techno: true,         // Enable/Disable "Tech Stack" section
+    xp: true,             // Enable/Disable "Experience" section
+    projects: true,       // Enable/Disable "Projects" section
+    certification: true   // Enable/Disable "Certifications" section
+};
+```
+
+- **true**: Section is enabled.
+- **false**: Section is disabled.
 
 ## Customization
 
