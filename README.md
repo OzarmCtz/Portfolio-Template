@@ -48,7 +48,7 @@ const config = {
     npm run dev
     ```
 
-4. Open [http://http://localhost:5173/](http://http://localhost:5173/) in your browser.
+4. Open [http://http://localhost:8080/](http://http://localhost:8080/) in your browser.
 
 ## Customization
 
@@ -58,11 +58,10 @@ const config = {
 ---
 
 That's it! Enjoy customizing your portfolio.
+
+Crédit : Udemy Course (https://www.udemy.com/course/formation-vue-js-par-la-pratique-le-cours-ultime-tout-en-1-vuejs/?couponCode=KEEPLEARNING)
+By Anthony Cardinale
 ```
 
-### Key Changes:
-- **Concise Description**: Shortened the explanation of features and configuration.
-- **No License**: Removed the license section as requested.
-- **Clear Setup Instructions**: Simplified the setup instructions for getting the project running quickly.
+
   
-Let me know if this fits your needs!
