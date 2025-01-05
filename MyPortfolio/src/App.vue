@@ -9,7 +9,7 @@
   </header>
 
   <main>
-    <PortfolioMain/>
+    <RouterView/>
   </main>
 </template>
 
