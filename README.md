@@ -57,6 +57,17 @@ const config = {
 
 ---
 
+## 🚧 TODO
+
+- ✨ **Add a contact form to the "Contact" page** (`src/pages/contactPage`)
+  - 📝 Include fields for the user's **name**, **email**, and **message**.
+  - ✅ Add **form validation** (ensure required fields are filled out).
+  - ✉️ Implement functionality for **form submission** (e.g., sending an email or storing data).
+  - 🎨 **Style the form** to match the overall design of the portfolio.
+
+---
+
+
 ## 👨‍🏫 Credit
 
 Anthony Cardinale (Teacher) 
